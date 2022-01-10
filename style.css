@@ -1,0 +1,58 @@
+/* Comentarios no css sao feitos assim*/
+/* Sintaxe do css: Abrir um seletor (h1 por exemplo) e depois abrir um conjuno de chaves onde dentro
+dela que vamos inserir o conteudo de estilização*/
+
+/*Vale ressaltar que antes dos dois ponto ":" temos a propriedade e depois o valor CSS*/
+
+h1{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+/*Os navegadores ja possuem uma flha de estilo aplicada ao proprio navegador, e isso facilita o desenvolvimento
+dos sites, porem se quisermos podemos tirar o estilo que o proprio navegador coloca*/
+
+/*li{
+    list-style-type: space-counter;
+}*/
+
+/*Incluindo Classes, quando icluios uma classe podemos utilizala para especificar um conteudo no CSS.
+Para podermos incluir o elemento temos que utilizar o ponto final antes da classe*/
+
+.special{
+    color: orangered;
+    font-weight: bold;
+}
+
+/*Podemos especificar mais ainda um coneudo de uma tag no html, fazendo com que todo elemento em receba 
+uma estilização*/
+li em{
+    color: rebeccapurple;
+}
+
+/*Combinador irmao adjacente, feito atraves do simbolo + entre os seletores */
+h1 + p{
+    font-size: 200%;
+}
+
+/*ESTILZANDO COISAS BASEADAS NO ESTADO*/
+
+a:link{
+    color: pink;
+    font-weight: bold;
+}
+
+a:visited{
+    color: green;
+}
+/*Remove o sublinhado do link*/
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
